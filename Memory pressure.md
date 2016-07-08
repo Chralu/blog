@@ -1,6 +1,9 @@
 # Howto measure memory pressure
 The main goal is to get a probe to show when lack of memory impacts a computer's performances.
 
+## Bibliography
+[SOF - Which metric should I use to determine when a server is low on memory?](http://serverfault.com/questions/437138/which-metric-should-i-use-to-determine-when-a-server-is-low-on-memory)
+
 ## Counting the number of pages activation/deactivation
 ```python
 import os
